@@ -21,6 +21,7 @@ const Projects: React.FC = () => {
             <img
               src={data.img}
               alt={data.title}
+              loading="lazy"
               className="aspect-video object-cover rounded-lg border border-blue-700/30"
             />
             <div>
@@ -36,6 +37,7 @@ const Projects: React.FC = () => {
                     <img
                       src={frameworkObj.icon}
                       alt={frameworkObj.name}
+                      loading="lazy"
                       className="size-7"
                     />
                     {frameworkObj.name}

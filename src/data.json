@@ -18,7 +18,7 @@
         }
       ],
       "github": "https://github.com/pheralb/svgl",
-      "img": "https://porfolio.dev/projects/svgl.webp",
+      "img": "/projects/svgl.webp",
       "preview": "https://svgl.app/",
       "title": "SVGL - A beautiful library with SVG logos"
     },
@@ -34,7 +34,7 @@
           "icon": "https://svgl.app/library/tailwindcss.svg"
         }
       ],
-      "img": "https://porfolio.dev/projects/adventjs.webp",
+      "img": "/projects/adventjs.webp",
       "preview": "https://adventjs.dev/es",
       "title": "AdventJS - Retos de programación con JavaScript y TypeScript"
     }
