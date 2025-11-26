@@ -1,0 +1,43 @@
+{
+  "name": "Gabo2447",
+  "avatar": "/avatar.webp",
+  "correo": "gabrieldeolival2@gmail.com",
+  "description": "+2 años de experiencia. Ingeniero de Software y Autotididacta en el mundo web. De Caracas, Venezuela. Especializado en el desarrollo de aplicaciones web únicas.",
+  "linkedIn": "https://linkedin.com/in/Gabo2447",
+  "proyectos": [
+    {
+      "description": "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
+      "frameworks": [
+        {
+          "name": "Next.js",
+          "icon": "https://svgl.app/library/nextjs_icon_dark.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "https://svgl.app/library/tailwindcss.svg"
+        }
+      ],
+      "github": "https://github.com/pheralb/svgl",
+      "img": "https://porfolio.dev/projects/svgl.webp",
+      "preview": "https://svgl.app/",
+      "title": "SVGL - A beautiful library with SVG logos"
+    },
+    {
+      "description": "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
+      "frameworks": [
+        {
+          "name": "Next.js",
+          "icon": "https://svgl.app/library/nextjs_icon_dark.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "https://svgl.app/library/tailwindcss.svg"
+        }
+      ],
+      "img": "https://porfolio.dev/projects/adventjs.webp",
+      "preview": "https://adventjs.dev/es",
+      "title": "AdventJS - Retos de programación con JavaScript y TypeScript"
+    }
+  ],
+  "about": "Me llamo Gabriel, tengo 15 años y soy de Caracas, Venezuela. Empece a estudiar como programador desde que tenía 11 años. Me encanta enforcarme en la UI/UX y en la parte del rendimiento, para ofrecer la mejor experiencia de usuario.<br/> Algunos de mis éxitos es que ayude a mis compañeros en el ambito de la programación, ayudandoles a desarrollar su logica de programación. Me encanta el testing, en su importancia y me gusta compartir mi conocimiento sobre ello.<br/> Cuento con experiencia desarrollando applicaciones moviles, y he juntado mis dos habilidades mas fuertes, la programación y las matematicas, llegando a ser un duo imparable."
+}
