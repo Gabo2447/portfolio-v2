@@ -17,10 +17,7 @@ const About: React.FC = () => {
         />
         <div className="text-neutral-300 text-wrap max-w-[650px]">
           {description.map((info) => (
-            <p
-              key={`${description.slice(" ", 3)}`}
-              className="text-neutral-300 text-wrap max-w-[650px]"
-            >
+            <p className="text-neutral-300 text-wrap max-w-[650px]">
               {info}
               <br />
               <br />
