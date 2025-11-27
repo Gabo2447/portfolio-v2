@@ -52,7 +52,7 @@ const Projects: React.FC = () => {
                   <li>
                     <a
                       href={data.github}
-                      className="px-3 py-1.5 bg-neutral-700/35 border border-neutral-500/50 rounded-lg flex place-items-center w-fit gap-x-3 text-neutral-100 text-lg hover:scale-105 active:scale-90 transition-transform duration-75"
+                      className="px-3 py-1.5 bg-blue-900 rounded-lg flex place-items-center w-fit gap-x-3 text-neutral-100 text-lg hover:scale-105 active:scale-90 transition-transform duration-75"
                       target="_blank"
                       rel="nooreferrer noopener"
                     >
@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
                       target="_blank"
                       rel="nooreferrer noopener"
                       href={data.preview}
-                      className="px-3 py-1.5 bg-neutral-700/35 border border-neutral-500/50 rounded-lg flex place-items-center w-fit gap-x-3 text-neutral-100 text-lg hover:scale-105 active:scale-90 transition-transform duration-75"
+                      className="px-3 py-1.5 flex place-items-center w-fit gap-x-3 text-lg border border-blue-600/50 text-cyan-700 rounded-lg"
                     >
                       <FiLink className="size-5" /> Vista previa
                     </a>
