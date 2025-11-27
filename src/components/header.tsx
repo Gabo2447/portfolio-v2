@@ -17,12 +17,12 @@ const Header: React.FC = () => {
           </li>
           <li>
             <a href="#about" className="hoverText">
-              Sobre Mi
+              Sobre mi
             </a>
           </li>
           <li>
             <a href={`mailto:${data.correo}`} className="hoverText">
-              Contacto
+              Contactame
             </a>
           </li>
         </ul>
