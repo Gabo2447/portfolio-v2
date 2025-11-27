@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
         {description[2]}. {description[3]}
       </p>
       <ul className="flex gap-x-4 items-center">
-        <li className="border border-neutral-400/20 px-4 py-1 w-fit rounded-full bg-neutral-700/40 hover:border-neutral-400 hover:bg-neutral-200 hover:text-neutral-900 transition">
+        <li className="border border-cyan-400/20 px-4 py-1 w-fit rounded-full bg-cyan-700/40 hover:border-neutral-400 hover:bg-neutral-200 hover:text-neutral-900 transition">
           <a
             className="flex gap-x-2 place-items-center"
             href={`mailto:${data.correo}`}
@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
             Contactame
           </a>
         </li>
-        <li className="border border-neutral-400/20 px-4 py-1 w-fit rounded-full bg-neutral-700/40 hover:border-neutral-400 hover:bg-neutral-200 hover:text-neutral-900 transition">
+        <li className="border border-cyan-400/20 px-4 py-1 w-fit rounded-full bg-cyan-700/40 hover:border-neutral-400 hover:bg-neutral-200 hover:text-cyan-900 transition">
           <a className="flex gap-x-2 place-items-center" href={data.linkedIn}>
             <CiLinkedin /> LinkedIn
           </a>
