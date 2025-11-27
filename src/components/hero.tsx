@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
           className="rounded-full size-12 md:size-14 lg:size-16"
         />
       </picture>
-      <h1 className="my-3 py-1 bg-linear-to-r from-blue-700 to-blue-300 bg-clip-text text-transparent font-extrabold font-Onest text-3xl md:text-4xl lg:text-5xl">
+      <h1 className="mb-4.5 mt-2 py-1 bg-linear-to-r from-cyan-700 to-cyan-300 bg-clip-text text-transparent font-extrabold font-Onest text-3xl md:text-4xl lg:text-5xl">
         Hey, soy {data.name}
       </h1>
       <p className="max-w-[600px] md:text-lg lg:text-xl mb-6">
@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
         {description[2]}. {description[3]}
       </p>
       <ul className="flex gap-x-4 items-center">
-        <li className="border border-cyan-400/20 px-4 py-1 w-fit rounded-full bg-cyan-700/40 hover:border-neutral-400 hover:bg-neutral-200 hover:text-neutral-900 transition">
+        <li className="px-4 py-1.5 w-fit rounded-full bg-cyan-800 hover:border-neutral-400 hover:bg-neutral-200 hover:text-neutral-900 transition">
           <a
             className="flex gap-x-2 place-items-center"
             href={`mailto:${data.correo}`}
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
             Contactame
           </a>
         </li>
-        <li className="border border-cyan-400/20 px-4 py-1 w-fit rounded-full bg-cyan-700/40 hover:border-neutral-400 hover:bg-neutral-200 hover:text-cyan-900 transition">
+        <li className="px-4 py-1.5 w-fit rounded-full bg-cyan-800 hover:border-neutral-400 hover:bg-neutral-200 hover:text-cyan-900 transition">
           <a className="flex gap-x-2 place-items-center" href={data.linkedIn}>
             <CiLinkedin /> LinkedIn
           </a>
