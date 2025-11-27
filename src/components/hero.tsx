@@ -1,10 +1,12 @@
 import data from "@/data.json";
 import { CiMail, CiLinkedin } from "react-icons/ci";
 
+import Section from "@/components/sections";
+
 const Hero: React.FC = () => {
   const description = data.description.split(".");
   return (
-    <section
+    <Section
       id="start"
       className="text-neutral-100 flex flex-col max-w-[750px] mx-auto my-8"
     >
@@ -41,7 +43,7 @@ const Hero: React.FC = () => {
           </a>
         </li>
       </ul>
-    </section>
+    </Section>
   );
 };
 

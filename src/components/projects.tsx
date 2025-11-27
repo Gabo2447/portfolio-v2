@@ -1,6 +1,7 @@
 import { FaCode } from "react-icons/fa";
 import { FiGithub, FiLink } from "react-icons/fi";
 
+import Section from "@/components/sections";
 import type { CardPropsSchema } from "@/types/proyects";
 import data from "@/data.json";
 
@@ -8,7 +9,7 @@ const projects: CardPropsSchema[] = data.proyectos as CardPropsSchema[];
 
 const Projects: React.FC = () => {
   return (
-    <section className="max-w-[1000px] mx-auto p-4" id="projects">
+    <Section id="projects">
       <h2 className="font-extrabold font-Onest text-2xl md:text-3xl lg:text-4xl text-blue-100 flex gap-x-2 place-items-center mb-5">
         <FaCode /> Projectos
       </h2>
@@ -77,7 +78,7 @@ const Projects: React.FC = () => {
           </li>
         ))}
       </ul>
-    </section>
+    </Section>
   );
 };
 export default Projects;
