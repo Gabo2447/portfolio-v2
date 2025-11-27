@@ -6,7 +6,7 @@
   "linkedIn": "https://linkedin.com/in/Gabo2447",
   "proyectos": [
     {
-      "description": "Aplicacion para medir tu indice corporal. Rapida, sencilla y facil de entender, con solamente CSS/Tailwind, HTML y JS",
+      "description": "Aplicacion para medir tu indice corporal. Rapida, sencilla y facil de entender, con solamente CSS/Tailwind, HTML y JS/TS. Este siendo creado desde 0.",
       "frameworks": [
         {
           "name": "Tailwind CSS",
