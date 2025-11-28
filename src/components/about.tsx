@@ -1,10 +1,11 @@
 import data from "@/data.json";
 import { HiUser } from "react-icons/hi2";
+import Section from "@/components/sections";
 
 const About: React.FC = () => {
   const description = data.about.split("<br/>");
   return (
-    <section className="max-w-[1000px] mx-auto p-4 my-8" id="about">
+    <Section id="about">
       <h2 className="font-extrabold font-Onest text-2xl md:text-3xl lg:text-4xl text-blue-100 flex gap-x-2 place-items-center mb-5">
         <HiUser />
         Sobre mí
@@ -15,9 +16,9 @@ const About: React.FC = () => {
           alt="avatar"
           className="object-cover aspect-square max-w-[250px] h-[250px] rounded-xl rotate-5 ring-4 ring-blue-600"
         />
-        <div className="text-neutral-300 text-wrap max-w-[650px]">
+        <div className="text-wrap max-w-[650px]">
           {description.map((info) => (
-            <p className="text-neutral-300 text-wrap max-w-[650px]">
+            <p className="text-blue-100/90 text-wrap font-mono">
               {info}
               <br />
               <br />
@@ -25,7 +26,7 @@ const About: React.FC = () => {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

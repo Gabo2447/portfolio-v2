@@ -1,6 +1,7 @@
 import { FaCode } from "react-icons/fa";
 import { FiGithub, FiLink } from "react-icons/fi";
 
+import Section from "@/components/sections";
 import type { CardPropsSchema } from "@/types/proyects";
 import data from "@/data.json";
 
@@ -8,7 +9,7 @@ const projects: CardPropsSchema[] = data.proyectos as CardPropsSchema[];
 
 const Projects: React.FC = () => {
   return (
-    <section className="max-w-[1000px] mx-auto p-4" id="projects">
+    <Section id="projects">
       <h2 className="font-extrabold font-Onest text-2xl md:text-3xl lg:text-4xl text-blue-100 flex gap-x-2 place-items-center mb-5">
         <FaCode /> Projectos
       </h2>
@@ -21,6 +22,7 @@ const Projects: React.FC = () => {
             <img
               src={data.img}
               alt={data.title}
+              loading="lazy"
               className="aspect-video object-cover rounded-lg border border-blue-700/30"
             />
             <div>
@@ -31,18 +33,19 @@ const Projects: React.FC = () => {
                 {data.frameworks.map((frameworkObj) => (
                   <li
                     key={frameworkObj.name}
-                    className="flex gap-x-2 text-blue-50/70 text-sm place-items-center bg-neutral-700/30 px-4 py-0.5 rounded-full border border-neutral-500/25"
+                    className="flex gap-x-2 text-blue-50/70 text-[13px] place-items-center bg-neutral-700/30 px-3 py-1 rounded-full border border-neutral-500/25"
                   >
                     <img
                       src={frameworkObj.icon}
                       alt={frameworkObj.name}
-                      className="size-7"
+                      loading="lazy"
+                      className="size-5"
                     />
                     {frameworkObj.name}
                   </li>
                 ))}
               </ul>
-              <p className="line-clamp-3 my-3 text-neutral-400">
+              <p className="line-clamp-3 my-4 text-neutral-300 opacity-90 text-[17px]">
                 {data.description}
               </p>
               <ul className="flex gap-x-3">
@@ -50,7 +53,7 @@ const Projects: React.FC = () => {
                   <li>
                     <a
                       href={data.github}
-                      className="px-3 py-1.5 bg-neutral-700/35 border border-neutral-500/50 rounded-lg flex place-items-center w-fit gap-x-3 text-neutral-100 text-lg hover:scale-105 active:scale-90 transition-transform duration-75"
+                      className="px-3 py-1.5 bg-cyan-700/40 rounded-lg flex place-items-center w-fit gap-x-3 text-neutral-100 hover:scale-105 active:scale-90 transition-transform duration-75"
                       target="_blank"
                       rel="nooreferrer noopener"
                     >
@@ -64,7 +67,7 @@ const Projects: React.FC = () => {
                       target="_blank"
                       rel="nooreferrer noopener"
                       href={data.preview}
-                      className="px-3 py-1.5 bg-neutral-700/35 border border-neutral-500/50 rounded-lg flex place-items-center w-fit gap-x-3 text-neutral-100 text-lg hover:scale-105 active:scale-90 transition-transform duration-75"
+                      className="px-3 py-1.5 flex place-items-center w-fit gap-x-3 border border-cyan-600/50 text-cyan-700 rounded-lg"
                     >
                       <FiLink className="size-5" /> Vista previa
                     </a>
@@ -75,7 +78,7 @@ const Projects: React.FC = () => {
           </li>
         ))}
       </ul>
-    </section>
+    </Section>
   );
 };
 export default Projects;
