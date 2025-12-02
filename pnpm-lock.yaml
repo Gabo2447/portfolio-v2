@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/onest':
+        specifier: ^5.2.11
+        version: 5.2.11
       '@tailwindcss/vite':
         specifier: 4.1.17
         version: 4.1.17(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2))
@@ -323,6 +326,9 @@ packages:
   '@eslint/plugin-kit@0.4.1':
     resolution: {integrity: sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@fontsource-variable/onest@5.2.11':
+    resolution: {integrity: sha512-knJww1KxK4g66+qu90q3CPBvl4zhL5oDRi3/JMkYMmlhW3OgyRgT4MMfgd6jg2lvho7bLPAXfsYPh59h0yzwUA==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1545,6 +1551,8 @@ snapshots:
     dependencies:
       '@eslint/core': 0.17.0
       levn: 0.4.1
+
+  '@fontsource-variable/onest@5.2.11': {}
 
   '@humanfs/core@0.19.1': {}
 

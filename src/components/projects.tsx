@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
               src={data.img}
               alt={data.title}
               loading="lazy"
-              className="aspect-video object-cover rounded-lg border border-blue-700/30"
+              className="aspect-video object-cover rounded-lg border border-blue-700/30 w-full h-auto"
             />
             <div>
               <h3 className="font-bold text-lg md:text-xl lg:text-2xl text-blue-50 mb-3.5">
@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
                   >
                     <img
                       src={frameworkObj.icon}
-                      alt={frameworkObj.name}
+                      alt={`Icono ${frameworkObj.name}`}
                       loading="lazy"
                       className="size-5"
                     />
@@ -67,7 +67,7 @@ const Projects: React.FC = () => {
                       target="_blank"
                       rel="nooreferrer noopener"
                       href={data.preview}
-                      className="px-3 py-1.5 flex place-items-center w-fit gap-x-3 border border-cyan-600/50 text-cyan-700 rounded-lg"
+                      className="px-3 py-1.5 flex place-items-center w-fit gap-x-3 border border-cyan-600/50 text-cyan-500 rounded-lg"
                     >
                       <FiLink className="size-5" /> Vista previa
                     </a>
