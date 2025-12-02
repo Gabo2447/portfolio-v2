@@ -2,7 +2,7 @@ import data from "@/data.json";
 
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-5 m-4 mx-auto px-4 py-1.5 rounded-full backdrop-blur-lg bg-neutral-700/25 border border-neutral-700/50 text-sm">
+    <header className="sticky top-5 m-4 mx-auto px-4 py-1.5 rounded-full bg-neutral-800 border border-neutral-700/50 text-sm z-100">
       <nav className="w-fit">
         <ul className="text-neutral-400 flex gap-x-4">
           <li>
