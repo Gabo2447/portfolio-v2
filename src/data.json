@@ -6,6 +6,27 @@
   "linkedIn": "https://linkedin.com/in/Gabo2447",
   "proyectos": [
     {
+      "description": "Aplicacion para ver el clima en tiempo real. Rapida, sencilla y facil de entender, con solamente CSS, HTML y JS/TS. Este siendo creado desde 0",
+      "frameworks": [
+        {
+          "name": "Tailwind CSS",
+          "icon": "https://svgl.app/library/tailwindcss.svg"
+        },
+        {
+          "name": "React",
+          "icon": "https://svgl.app/library/react_dark.svg"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "https://svgl.app/library/typescript.svg"
+        }
+      ],
+      "github": "https://github.com/Gabo2447/weather-app",
+      "img": "/projects/weather.png",
+      "preview": "https://gl-weather.vercel.app/",
+      "title": "Weather App - Aplicacion para ver el clima"
+    },
+    {
       "description": "Aplicacion para medir tu indice corporal. Rapida, sencilla y facil de entender, con solamente CSS, HTML y JS/TS. Este siendo creado desde 0",
       "frameworks": [
         {
